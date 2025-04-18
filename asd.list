@@ -1,3 +1,4 @@
+rules:
  - DOMAIN,app.adjust.com,DIRECT
  - DOMAIN,app.appsflyer.com,DIRECT
  - DOMAIN,bdtj.tagtic.cn,DIRECT
