@@ -14,7 +14,9 @@ ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/OpenAI.
 ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/PayPal.list
 ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Spotify.list
 ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Steam.list
-
+ruleset=MATCH,Final
+proxy-providers: {}
+rule-providers: {}
 
 custom_proxy_group=Proxies`select`[]所有-自动`[]港台日新韩-自动`[]台日新韩-自动`[]香港-自动`[]台湾-自动`[]日本-自动`[]新加坡-自动`[]韩国-自动`[]美国-自动`[]其他-自动`[]所有-轮询`[]港台日新韩-轮询`[]台日新韩-轮询`[]香港-轮询`[]台湾-轮询`[]日本-轮询`[]新加坡-轮询`[]韩国-轮询`[]美国-轮询`[]其他-轮询`[]DIRECT`[]Proxies`
 custom_proxy_group=YouTube`select`[]所有-自动`[]港台日新韩-自动`[]台日新韩-自动`[]香港-自动`[]台湾-自动`[]日本-自动`[]新加坡-自动`[]韩国-自动`[]美国-自动`[]其他-自动`[]所有-轮询`[]港台日新韩-轮询`[]台日新韩-轮询`[]香港-轮询`[]台湾-轮询`[]日本-轮询`[]新加坡-轮询`[]韩国-轮询`[]美国-轮询`[]其他-轮询`[]DIRECT`[]Proxies`
