@@ -1,15 +1,6 @@
 [custom]
 ;解决DNS泄露，无分流群组
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/aaa.list
-ruleset=DIRECT,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/aaa.list
-ruleset=DIRECT,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/aaa.list
-ruleset=DIRECT,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/aaa.list
-ruleset=DIRECT,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/aaa.list
-ruleset=REJECT,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/aaa.list
-ruleset=REJECT,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/aaa.list
-ruleset=DIRECT,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/aaa.list
-ruleset=DIRECT,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/aaa.list
-ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🚀 节点选择,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]所有-自动`[]港台日新韩-自动`[]台日新韩-自动`[]香港-自动`[]台湾-自动`[]日本-自动`[]新加坡-自动`[]韩国-自动`[]美国-自动`[]其他-自动`[]所有-轮询`[]港台日新韩-轮询`[]台日新韩-轮询`[]香港-轮询`[]台湾-轮询`[]日本-轮询`[]新加坡-轮询`[]韩国-轮询`[]美国-轮询`[]其他-轮询`[]DIRECT`.*
