@@ -29,3 +29,8 @@
   - IP-CIDR,205.180.175.0/24,Apple,no-resolve
   - IP-CIDR,63.92.224.0/19,Apple,no-resolve
   - IP-CIDR,65.199.22.0/23,Apple,no-resolve
+  - PROCESS-NAME,LookupViewService,Apple
+  - PROCESS-NAME,storedownloadd,Apple
+  - PROCESS-NAME,Music,Apple
+  - PROCESS-NAME,News,Apple
+  - PROCESS-NAME,TV,Apple
