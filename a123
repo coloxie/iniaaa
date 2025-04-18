@@ -1,9 +1,8 @@
-;1、域名组
 [custom]
 ;解决DNS泄露，无分流群组
-ruleset=Proxies,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-ruleset=Proxies,[]DOMAIN-SUFFIX,services.googleapis.cn
-ruleset=Proxies,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
@@ -13,11 +12,11 @@ ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ba
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
-ruleset=Proxies,[]FINAL
-;2、策略组（域名组-节点组）
-custom_proxy_group=Proxies`select`[]所有-自动`[]港台日新韩-自动`[]台日新韩-自动`[]香港-自动`[]台湾-自动`[]日本-自动`[]新加坡-自动`[]韩国-自动`[]美国-自动`[]其他-自动`[]⚖️ 负载均衡-轮询-所有`[]⚖️ 负载均衡-轮询-港台日新韩`[]⚖️ 负载均衡-轮询-台日新韩`[]⚖️ 负载均衡-轮询-香港`[]⚖️ 负载均衡-轮询-台湾`[]⚖️ 负载均衡-轮询-日本`[]⚖️ 负载均衡-轮询-新加坡`[]⚖️ 负载均衡-轮询-韩国`[]⚖️ 负载均衡-轮询-美国`[]⚖️ 负载均衡-轮询-其他`[]DIRECT`
+ruleset=🚀 节点选择,[]FINAL
 
-;3、节点组
+custom_proxy_group=🚀 节点选择`select`[]所有-自动`[]港台日新韩-自动`[]台日新韩-自动`[]香港-自动`[]台湾-自动`[]日本-自动`[]新加坡-自动`[]韩国-自动`[]美国-自动`[]其他-自动`[]⚖️ 负载均衡-轮询-所有`[]⚖️ 负载均衡-轮询-港台日新韩`[]⚖️ 负载均衡-轮询-台日新韩`[]⚖️ 负载均衡-轮询-香港`[]⚖️ 负载均衡-轮询-台湾`[]⚖️ 负载均衡-轮询-日本`[]⚖️ 负载均衡-轮询-新加坡`[]⚖️ 负载均衡-轮询-韩国`[]⚖️ 负载均衡-轮询-美国`[]⚖️ 负载均衡-轮询-其他`[]DIRECT`
+
+
 custom_proxy_group=所有-自动`url-test`.*`http://www.gstatic.com/generate_204`180,5,100
 custom_proxy_group=港台日新韩-自动`url-test`(广港|广台|广日|广新|广韩|广美|香港|HK|Hong Kong|🇭🇰|HongKong|台湾|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan|新加坡|SG|坡|狮城|🇸🇬|Singapore|韩国|KR|首尔|春川|🇰🇷|Korea)`http://www.gstatic.com/generate_204`180,5,100
 custom_proxy_group=台日新韩-自动`url-test`(广台|广日|广新|广韩|广美|台湾|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan|日本|JP|川日|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|Japan|新加坡|SG|坡|狮城|🇸🇬|Singapore|韩国|KR|首尔|春川|🇰🇷|Korea)`http://www.gstatic.com/generate_204`180,5,100
