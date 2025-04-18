@@ -1,19 +1,19 @@
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Proxies.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Telegram.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/YouTube.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Microsoft.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Apple.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Bahamut.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Bilibili.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/DIRECT.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Disney.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Google.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Hbomax.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Netflix.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/OpenAI.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/PayPal.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Spotify.list
-ruleset=https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Steam.list
+ruleset=Proxies,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Proxies.list
+ruleset=Telegram,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Telegram.list
+ruleset=YouTube,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/YouTube.list
+ruleset=Microsoft,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Microsoft.list
+ruleset=Apple,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Apple.list
+ruleset=Bahamut,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Bahamut.list
+ruleset=Bilibili,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Bilibili.list
+ruleset=DIRECT,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/DIRECT.list
+ruleset=Disney,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Disney.list
+ruleset=Google,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Google.list
+ruleset=Hbomax,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Hbomax.list
+ruleset=Netflix,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Netflix.list
+ruleset=OpenAI,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/OpenAI.list
+ruleset=PayPal,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/PayPal.list
+ruleset=Spotify,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Spotify.list
+ruleset=Steam,https://raw.githubusercontent.com/coloxie/iniaaa/refs/heads/main/Steam.list
 ruleset=MATCH,Final
 proxy-providers: {}
 rule-providers: {}
