@@ -1,18 +1,6 @@
 [custom]
 ruleset = Proxy,[]MATCH
 
-[general]
-http_port = 7890
-socks_port = 7891
-allow_lan = true
-log_level = info
-external_controller = 127.0.0.1:9090
-clash_mode = rule
-
-dns_server = 8.8.8.8,1.1.1.1
-dns_fallback = tls://8.8.4.4,tls://1.0.0.1
-dns_ipv6 = false
-
 
 
 custom_proxy_group=Proxy`select`[]所有-自动`[]港台日新韩-自动`[]台日新韩-自动`[]香港-自动`[]台湾-自动`[]日本-自动`[]新加坡-自动`[]韩国-自动`[]美国-自动`[]其他-自动`[]⚖️ 负载均衡-轮询-所有`[]⚖️ 负载均衡-轮询-港台日新韩`[]⚖️ 负载均衡-轮询-台日新韩`[]⚖️ 负载均衡-轮询-香港`[]⚖️ 负载均衡-轮询-台湾`[]⚖️ 负载均衡-轮询-日本`[]⚖️ 负载均衡-轮询-新加坡`[]⚖️ 负载均衡-轮询-韩国`[]⚖️ 负载均衡-轮询-美国`[]⚖️ 负载均衡-轮询-其他`[]DIRECT`.*
@@ -42,8 +30,18 @@ custom_proxy_group=⚖️ 负载均衡-轮询-其他`load-balance`(波|柬|尼|�
 
 
 
-enable_rule_generator=true
-overwrite_original_rules=true
+
+[general]
+http_port = 7890
+socks_port = 7891
+allow_lan = true
+log_level = info
+external_controller = 127.0.0.1:9090
+clash_mode = rule
+
+dns_server = 8.8.8.8,1.1.1.1
+dns_fallback = tls://8.8.4.4,tls://1.0.0.1
+dns_ipv6 = false
 
 
 
